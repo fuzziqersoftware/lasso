@@ -1,0 +1,157 @@
+@media screen and (orientation:landscape) {
+  .square {
+    height: 100vh;
+    width: 100vh;
+  }
+}
+@media screen and (orientation:portrait) {
+  .square {
+    height: 100vw;
+    width: 100vw;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  color: #202020;
+  background-color: #FFFFFF;
+  background-image: url("/static/bg.png");
+}
+
+.viewport {
+  margin: 0px;
+  padding: 0px;
+  background-color: #F0F0F0;
+}
+
+
+
+.error_box {
+  position: absolute;
+  background-color: #E0E0E0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 10px;
+
+  color: #202020;
+  font-size: 24pt;
+  width: 60%;
+}
+
+span.error_subtext {
+  font-size: 16pt;
+}
+
+a.error_reload {
+  color: #202020;
+  text-decoration: none;
+}
+
+.error_fade_out {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.5s, opacity 0.5s linear;
+}
+
+.fullscreen {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+}
+
+
+
+.form_input {
+  display: inline;
+  height: 20px;
+
+  background-color: #D0D0D0;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  color: #202020;
+  text-align: left;
+  font-size: 14pt;
+}
+
+.form_input:focus {
+  background-color: #C0C0C0;
+  color: #202020;
+}
+
+.form_input::placeholder {
+  color: #808080;
+  opacity: 1;
+}
+
+.form_select {
+  display: inline;
+  height: 26px;
+
+  background-color: #D0D0D0;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  color: #202020;
+  text-align: left;
+  font-size: 14pt;
+}
+
+
+
+.login_box {
+  position: absolute;
+  background-color: #E0E0E0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+
+
+.scores_box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  background-color: #F0F0F0;
+  margin: 0px;
+  padding: 10px;
+}
+
+
+
+.subtext {
+  font-size: 80%;
+}
+
+
+
+.instructions_box {
+  position: absolute;
+  background-color: #E0E0E0;
+  left: 50%;
+  top: 20px;
+  transform: translate(-50%,0%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 10px;
+}
+
+.game_title {
+  font-weight: bold;
+  font-size: 175%;
+}

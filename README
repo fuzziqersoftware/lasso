@@ -1,0 +1,6 @@
+Lasso is a little game written in Python 3 and JavaScript. Make loops around the
+objects and other players, but don't touch them! Don't move too fast or your
+tail will break.
+
+To use this, install aiohttp using pip3 and run server.py. You can then go to
+localhost:5050 in a web browser and make some loops.
